@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+  background-color: #2e3131;
+  height: 100%;
+
+
+}
+.head{
+color: white;
+font-family:'Shadows Into Light', cursive;
+
+padding-top: 10px;
+opacity: 0.7;
+font-weight: bold;
+
+
+
+}
+.apps{
+
+animation:ani 2s 0s linear
+
+
+
+
+
+}
+@keyframes ani {
+  from{
+    transform: translateY(50px)translateX(-500px);
+  }
+  to{
+    transform: translateY(0px)translateX(0px);
+
+  }
+
+}
+.List{
+
+width:560px;
+height: 300px;
+overflow: scroll;
+overflow-x: hidden;
+overflow-y: hidden;
+background-color:#1abc9c;
+display: flex;
+flex-direction: column;
+border-radius: 5px;
+margin-top: -700px;
+
+
+}
+.lists{
+
+width: 1250px;
+height: 100%;
+
+display:flex;
+align-items: flex-start;
+justify-content: flex-start;
+padding-top: 730px;
+flex-direction: row;
+
+margin-left: 50px;
+
+
+
+
+}
+.Card{
+width:500px;
+box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.3);
+height:50px;
+background-color: white;
+padding-top: 10px;
+padding-right: 300px;
+
+
+margin-top: 10px;
+margin-left: 20px;
+border-radius: 5px;
+color:#3fc380;
+font-weight: bold;
+
+
+}
+.side{
+  width: 300px;
+border-bottom: 2px solid white;
+
+
+}
+.child{
+width:700px;
+box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.3);
+height:50px;
+background-color: white;
+padding-top: 10px;
+margin-left: 20px;
+margin-top: 5px;
+
+color:#2dc341;
+font-weight: bold;
+
+
+}
+.sublist{
+
+width: 560px;
+height: 300px;
+overflow: scroll;
+overflow-x: hidden;
+overflow-y: hidden;
+margin-top: -700px;
+
+margin-left: 5px;
+
+
+
+
+
+
+}
+.vd{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.login{
+
+width:300px;
+height: 300px;
+box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.3);
+background-color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+margin-left: 500px;
+flex-direction: column;
+color: #23cba7;
+
+
+
+}
